@@ -1,0 +1,39 @@
+{
+  "name": "estfor-test-rig",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@paintswap/estfor-definitions": "github:PaintSwap/estfor-definitions#doublesharp",
+    "@vueuse/core": "^10.7.0",
+    "@vueuse/head": "^2.0.0",
+    "@wagmi/core": "^1.4.12",
+    "@web3modal/wagmi": "^3.5.0",
+    "ethers": "^6.8.1",
+    "pinia": "^2.1.7",
+    "viem": "^1.19.15",
+    "vue": "^3.3.8",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@archmagefi/eslint-config": "^0.0.3",
+    "@types/node": "^20.9.3",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.16",
+    "daisyui": "^4.4.2",
+    "eslint": "^8.54.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.3.5",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0",
+    "vue-tsc": "^1.8.22"
+  }
+}
